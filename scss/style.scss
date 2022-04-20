@@ -1,3 +1,4 @@
+@import 'abstracts/variables';
 @import 'base/fonts';
 @import 'base/container';
 @import 'base/normalize';
@@ -13,3 +14,9 @@
 @import 'components/hero/hero';
 @import 'components/hero/_img/hero__img';
 @import 'components/hero/_text/hero_text';
+
+@import 'components/video/video';
+@import 'components/video/_content/video__content';
+@import 'components/video/_description/video__description';
+@import 'components/video/_item/video__item';
+@import 'components/video/_description/--first/video__description--first';
