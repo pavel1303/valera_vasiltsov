@@ -1,16 +1,7 @@
 @font-face {
-  font-family: "Marutya";
-  src: url("Marutya.eot");
-  src: url("Marutya.eot?#iefix") format("embedded-opentype"), url("Marutya.woff2") format("woff2"), url("Marutya.woff") format("woff"), url("Marutya.ttf") format("truetype"), url("Marutya.otf") format("opentype"), url("Marutya.svg#Marutya") format("svg");
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  unicode-range: U+0021-0451;
-}
-@font-face {
   font-family: "VoronovFont";
-  src: url("/assets/fonts/VoronovFont.eot");
-  src: url("/assets/fonts/VoronovFont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/VoronovFont.woff2") format("woff2"), url("/assets/fonts/VoronovFont.woff") format("woff"), url("/assets/fonts/VoronovFont.ttf") format("truetype"), url("/assets/fonts/VoronovFont.otf") format("opentype"), url("/assets/fonts/VoronovFont.svg#VoronovFont Regular") format("svg");
+  src: url("../assets/fonts/VoronovFont.eot");
+  src: url("../assets/fonts/VoronovFont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/VoronovFont.woff2") format("woff2"), url("../assets/fonts/VoronovFont.woff") format("woff"), url("../assets/fonts/VoronovFont.ttf") format("truetype"), url("../assets/fonts/VoronovFont.otf") format("opentype"), url("../assets/fonts/VoronovFont.svg#VoronovFont Regular") format("svg");
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
@@ -242,7 +233,7 @@ html {
 
 .body {
   width: 100%;
-  background: url("/assets/images/bg.jpg");
+  background: url("../assets/images/bg.jpg");
   font-family: "VoronovFont";
   font-size: 1.6rem;
 }
