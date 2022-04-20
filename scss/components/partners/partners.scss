@@ -1,0 +1,22 @@
+.partners{
+   .container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      >:nth-child(2){
+         align-self: flex-start;
+      }
+      >:nth-child(3){
+         align-self: flex-end;
+      }
+      >:nth-child(4){
+         align-self: flex-start;
+      }
+      >:nth-child(5){
+         align-self: flex-end;
+      }
+      >:nth-child(6){
+         align-self: flex-start;
+      }
+   }
+}

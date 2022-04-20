@@ -236,6 +236,7 @@ html {
   background: url("../assets/images/bg.jpg");
   font-family: "VoronovFont";
   font-size: 1.6rem;
+  color: #1405B7;
 }
 
 .contacts {
@@ -256,6 +257,12 @@ html {
 .contacts__number {
   text-decoration: none;
   font-size: 28px;
+}
+
+.contacts--footer {
+  padding: 0 0 10px;
+  border-bottom: none;
+  border-top: 2px solid #A97794;
 }
 
 .hero {
@@ -313,7 +320,7 @@ html {
   display: block;
   width: 40px;
   height: 60px;
-  background: url("/assets/images/arrow2.svg") no-repeat;
+  background: url("../assets/images/arrow2.svg") no-repeat;
 }
 
 .video__description--first {
@@ -327,7 +334,46 @@ html {
   display: block;
   width: 20px;
   height: 50px;
-  background: url("/assets/images/arrow1.svg") no-repeat;
+  background: url("../assets/images/arrow1.svg") no-repeat;
+}
+
+.gallary {
+  padding: 20px 0 20px;
+}
+.gallary .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+}
+
+.slider__item {
+  width: 100%;
+}
+
+.partners .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.partners .container > :nth-child(2) {
+  align-self: flex-start;
+}
+.partners .container > :nth-child(3) {
+  align-self: flex-end;
+}
+.partners .container > :nth-child(4) {
+  align-self: flex-start;
+}
+.partners .container > :nth-child(5) {
+  align-self: flex-end;
+}
+.partners .container > :nth-child(6) {
+  align-self: flex-start;
 }
 
 /*# sourceMappingURL=main.css.map */
