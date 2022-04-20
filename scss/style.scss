@@ -1,0 +1,11 @@
+@import 'base/container';
+@import 'base/fonts';
+@import 'base/normalize';
+@import 'base/base';
+@import 'base/wrapper';
+
+@import 'components/contacts/contacts';
+@import 'components/contacts/_img/contacts__img';
+@import 'components/contacts/_item/contacts__item';
+@import 'components/contacts/_number/contacts__number';
+@import 'components/contacts/_social/contacts__social';
