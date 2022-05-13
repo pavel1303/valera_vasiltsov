@@ -5,6 +5,16 @@
 @import 'base/base';
 @import 'base/wrapper';
 
+@import 'components/header/header';
+@import 'components/header/_navigation/header__navigation';
+@import 'components/header/_navigation/--open/header__navigation--open';
+@import 'components/burger/burger';
+@import 'components/burger/--open/burger--open';
+@import 'components/burger/__line/burger__line';
+@import 'components/navigation/navigation';
+@import 'components/navigation/_link/navigation__link';
+@import 'components/navigation/_item/navigation__item';
+
 @import 'components/contacts/contacts';
 @import 'components/contacts/_img/contacts__img';
 @import 'components/contacts/_item/contacts__item';
@@ -12,9 +22,17 @@
 @import 'components/contacts/_social/contacts__social';
 @import 'components/contacts/--footer/contacts--footer';
 
+@import 'components/title/_name/hero__name';
+@import 'components/title/_surname/hero__surname';
+@import 'components/title/_profession/hero__profession';
+
 @import 'components/hero/hero';
 @import 'components/hero/_img/hero__img';
-@import 'components/hero/_text/hero_text';
+@import 'components/hero/_text/hero__text';
+@import 'components/hero/_subtitle/hero__subtitle';
+@import 'components/hero/_title/hero__title';
+@import 'components/hero/_photo/hero__photo';
+@import 'components/hero/_button/hero__button';
 
 @import 'components/video/video';
 @import 'components/video/_content/video__content';

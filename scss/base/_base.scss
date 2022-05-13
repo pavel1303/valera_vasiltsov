@@ -8,3 +8,9 @@ html{
    font-size: 1.6rem;
    color: $color-text;
 }
+span{
+   display: block;
+}
+.body--no-scrool{
+   overflow: hidden;
+}

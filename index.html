@@ -11,32 +11,47 @@
 </head>
 
 <body class="body">
-   <section class="contacts">
+   <div class="test" data-test="test"></div>
+   <section class="header">
       <div class="container">
-         <div class="contacts__item">
-            <a href="tel:89788533158" class="contacts__number">8-978-853-31-58</a>
-         </div>
-         <div class="contacts__item">
-            <a href="#" class="contacts__social"><img src="assets/icons/whats_app.svg" alt="What's app"
-                  class="contacts__img"></a>
-            <a href="#" class="contacts__social"><img src="assets/icons/telegram.svg" alt="Telegram"
-                  class="contacts__img"></a>
+         <nav class="header__navigation">
+            <ul class="navigation">
+               <li class="navigation__item"><a class="navigation__link" href="#about">Обо мне</a></li>
+               <li class="navigation__item"><a class="navigation__link" href="#video">Видео</a></li>
+               <li class="navigation__item"><a class="navigation__link" href="#contacts">Связаться</a></li>
+            </ul>
+         </nav>
+         <div class="burger">
+            <div class="burger__line"></div>
          </div>
       </div>
    </section>
    <section class="hero">
       <div class="container">
-         <img class="hero__img" src="assets/images/main_foto.png" alt="Валерий Васильцов">
-         <p class="hero__text">Веду я мероприятие, и все круто: гости смеются, интерактивы заходят, заказчики
-            благодарят. И тут, в середине мероприятия я замечаю, что один гость вообще не улыбается. Я воспринял это
-            как вызов, подумал "я обязан его сегодня рассмешить". Выхожу к зрителю, интерктив, шутки, квиз про
-            гостей, но он даже не улыбнулся. И вот заканчивается мероприятие, и я вижу, как от самого дальнего
-            столика этот гость идет прямо ко мне. Подходит, протягивает руку и говорит "спасибо большое, мне никогда
-            так не было весело!" Я отвечаю "Вы же даже не смеялись!" "Да, но это не значит, что мне не было весело.
-            Спасибо за атмосферу!"</p>
+         <div class="hero__photo">
+            <img class="hero__img" src="assets/images/hero__img.png" alt="Валерий Васильцов">
+            <h1 class="hero__title title">
+               <span class="title__name" id="name"></span>
+               <span class="title__surname" id="surname"></span>
+               <span class="title__profession" id="profession"></span>
+            </h1>
+            
+         </div>
+         <h2 id="about" class="hero__subtitle">История не как у всех</h2>
+         <p class="hero__text">
+   .... 2012 год. Я начал работать на свадьбах.. ди-джеем...Это были мероприятия в лучших свадебных традициях: с тамадой, с шариками и цветами, застольными песнями и конкурсами, после которых стыдно даже тем, кто в них не участвовал.
+   В течение двух лет я думал только об одном: «если бы мне дали микрофон, я все бы сделал по-другому!» <br>
+   2014 год. Свадьба моих друзей. Они предлагают провести ее мне и тут я...  <a class="hero__button">читать дальше...</a> <br> и я, конечно, соглашаюсь, ведь это именно тот шанс, о котором я мечтал!
+   Я предложил им провести свадьбу бесплатно, но только так, как вижу ее я. Друзья согласились, у них не было ни денег, ни представлений о том, как должна проходить свадьба. 
+   Такого страха, как перед этой свадьбой, я не испытывал никогда. В голове была всего одна мысль: «зачем я в это ввязался....»
+   Наступил день икс. Я вел свадьбу и видел в глазах людей искреннее удивление, когда вместо «ползунков» для сбора денег на малыша, в зале появились строительная каска и женская шляпка (жених в детстве хотел быть строителем, а невеста - дизайнером шляп). А вместо конкурсов с шариками мы с гостями играли в «Что? Где? Когда?», с вопросами про жениха и невесту...
+   Свадьба длилась для меня как будто вечность, ведь я все делал впервые, но главное, мне все очень нравилось! После свадьбы ко мне подошел официант со словами: «Я всю жизнь работаю в этом ресторане, но такой свадьбы я еще не видел. Ты сделал все для того, чтобы люди улыбались и были счастливы! Дай визитку?».
+   И я дал свою первую визитку, которую написал на салфетке.
+   С тех пор я провел сотни свадеб, корпоративов, дней рождений и чатных вечеринок, но всегда помню слова того официанта и делаю все, чтобы люди улыбались и были счастливы не только на фотографиях....
+         </p>
       </div>
    </section>
-   <section class="video">
+   <section class="video" id="video">
       <div class="container">
          <div class="video__content">
             <span class="video__description video__description--first">01:32 - счастливый директор фирмы “Алеша
@@ -61,7 +76,7 @@
          <img class="partners__logo" src="assets/images/5.png" alt="Эти Русские">
       </div>
    </section>
-   <section class="gallary">
+   <section class="gallary" >
       <div class="container">
          <h2 class="gallary__title">
             Если вы оказались здесь, то нам пора познакомиться лично
@@ -71,9 +86,9 @@
          </div>
       </div>
    </section>
-   <section class="contacts contacts--footer">
+   <section class="contacts contacts--footer" id="contacts">
       <div class="container">
-         <div class="contacts__item">
+         <div class="contacts__item" >
             <a href="tel:89788533158" class="contacts__number">8-978-853-31-58</a>
          </div>
          <div class="contacts__item">
@@ -84,6 +99,7 @@
          </div>
       </div>
    </section>
+   <script src="js/index.js"></script>
 </body>
 
 </html>
